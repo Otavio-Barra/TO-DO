@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="container">
+        <form action="#">
+            <p>
+                <label for="task">Tarefa:</label>
+                <input type="text" name="task" id="task" >
+            </p>
+            <button type="button" onclick="newTask()">Adicionar tarefa</button>
+        </form>
+    </section>
+
+    <section class="container2">
+        <h2>Lista de tarefas</h2>
+        <ul class="lista" id="completList"></ul>
+    </section>
+    <script src="https://kit.fontawesome.com/506af95ef1.js" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
